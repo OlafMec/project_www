@@ -2,7 +2,7 @@
 
 header {
     height: 100vh;
-    background: url('../assets/img/bg-header.webp') center/cover fixed;
+    background: $picture-bg-header;
     color: #fff;
 
     display: flex;
@@ -48,7 +48,7 @@ position: absolute;
         margin-top: 50px;
         transition: 0.5s;
         &:hover {
-            background-color: $color-bg-link-header-href;
+            background-color: $color-bg-link-header-hover;
             transform: translatey(-10px);
         }
         span {
