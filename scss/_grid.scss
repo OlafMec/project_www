@@ -30,7 +30,7 @@ margin: 0 auto;
 
 .col {
     width: 100%;
-
+    padding: 10px;
     &-md25 {
         @include medium {
             flex: 0 0 25%;
