@@ -1,5 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: "Lato", "sans-serif";
 }
 
 html {
@@ -201,6 +202,29 @@ section h3 {
   text-align: center;
   padding: 15px;
   font-size: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  resize: none;
+}
+
+input[type=submit]:hover {
+  background-color: lightgrey;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
